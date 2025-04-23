@@ -53,6 +53,6 @@ export default function Page() {
         </div>
       </div>
     </main>
-    {/* <footer className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52"> Wednessday</footer> */}
+    {/* <footer className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52"> Wednesday</footer> */}
   </>
 }
