@@ -16,7 +16,7 @@ export default function Page() {
     <main className={`${inter.className} relative h-screen w-full overflow-hidden`}>
         {/* Full-Screen Hero Image */}
         <Image
-          src="/handmade3.png"
+          src="/pgg_center.png"
           alt="Hero Image"
           fill
           priority
