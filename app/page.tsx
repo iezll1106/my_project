@@ -1,6 +1,5 @@
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { inter, lora } from '@/app/ui/fonts';
 import Image from 'next/image';
 import { Metadata } from 'next';
@@ -26,13 +25,13 @@ export default function Page() {
 
         {/* Overlay Content */}
         <div className="relative z-10 flex items-center justify-center h-full w-full px-4">
-          <div className="backdrop-blur-md rounded-lg p-8 md:p-12 max-w-xl text-center shadow-lg">
+          <div className="bg-transparent rounded-lg p-8 md:p-12 max-w-xl text-center">
             <p className={`${lora.className} text-2xl md:text-4xl font-bold text-purple-900 italic mb-4`}>
-              &quot;Discover the Art of Handmade Where Creativity Meets Craftsmanship!&quot;
+              🌿 Discover Guimaras! 🌿
             </p>
-            <p className="text-purple-900 text-sm md:text-lg mb-6">
+            {/* <p className="text-purple-900 text-sm md:text-lg mb-6">
               🌿 Unique. Authentic. Handcrafted with Love. 🌿
-            </p>
+            </p> */}
 
             <div className="flex flex-col gap-4 md:flex-row justify-center mt-6">
               <Link
