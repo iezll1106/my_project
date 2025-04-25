@@ -1,7 +1,5 @@
-//import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { inter, lora } from '@/app/ui/fonts';
+import { inter } from '@/app/ui/fonts';
 import Image from 'next/image';
 import { Metadata } from 'next';
 import Header from '@/app/ui/header';
